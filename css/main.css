@@ -220,10 +220,23 @@ header {
 .call-to-action h2 {
   margin: 0 auto 20px; }
 
-.comment-photo {
-  border-radius: 50%;
+@media (max-width: 1220px) {
+  .expert-block {
+    display: none; } }
+.comment {
+  height: auto;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 10px 30px 10px 100px;
+  position: relative; }
+
+.comment-photo img {
   width: 80px;
-  margin-right: 20px; }
+  height: 80px;
+  position: absolute;
+  left: 0;
+  margin-right: 20px;
+  border-radius: 50%; }
 
 .text-primary {
   color: #ec7926; }
