@@ -220,6 +220,11 @@ header {
 .call-to-action h2 {
   margin: 0 auto 20px; }
 
+.comment-photo {
+  border-radius: 50%;
+  width: 80px;
+  margin-right: 20px; }
+
 .text-primary {
   color: #ec7926; }
 
